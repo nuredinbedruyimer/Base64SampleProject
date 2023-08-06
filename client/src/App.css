@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+form{
+  border-top: 2px solid rgba(219, 215, 215, 0.048);
+  width:30vw;
+  
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  box-shadow:0 1rem 1rem rgba(0, 0, 0, 0.233);
+  border-radius:.7rem ;
+
+
+}
+
+.break{
+  border: 1px solid white;
+  margin: 1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.075);
+}
+.btn{
+  margin: 5rem;
+  font-size: 1.0rem ;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.082);
+}
+.btn:hover{
+  background: rgb(46, 2, 2);
+  transform: scale(1.05);
+
+}
+form input{
+  height:3rem;
+  background:white;
+  color:rgb(160, 36, 36);
+  text-align:center;
+  margin:1rem;
+  border-radius:0.5rem;
+  
+}
+form img {
+  height:8rem;
+  width:8rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.082);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
